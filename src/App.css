@@ -1,0 +1,55 @@
+body
+ {
+  background-color: black;
+}
+
+.App {
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  height: 100vh;
+}
+
+.controls {
+  width:40vw;
+}
+
+.box {
+  width: 40vw;
+  height: 50vh;
+  background-color: yellow;
+  color: brown;
+  font-weight: bold;
+  text-align: center;
+  padding:20vh 0px;
+}
+
+/* mobile view */
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: black;
+    margin: 0;
+    padding:0;
+  }
+
+  .box {
+    width:40vw;
+    height:30vh;
+    font-weight: bold;
+    color:brown;
+    text-align:center;
+    padding:8vh 0px;
+  }
+
+  .App {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .controls {
+    width:50vw;
+  }
+}
